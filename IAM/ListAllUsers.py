@@ -10,8 +10,7 @@ def all_users():
         for user in response['Users']:
             username =  user['UserName']
             Arn = user['Arn']
-            Created = user['Created']
-            print(f'Username: {username} Arn: {Arn})
+            print(f'Username: {username} Arn: {Arn}')
 
 all_users()
 
