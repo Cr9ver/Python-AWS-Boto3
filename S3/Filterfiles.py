@@ -1,6 +1,6 @@
 import boto3
 
-bucket_name= "cr9ver-test-aws"
+bucket_name= "BUCKET-NAME"
 
 s3_resource = boto3.resource('s3')
 
